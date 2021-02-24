@@ -1,0 +1,54 @@
+V "GNAT Lib v10"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U main%b		main.adb		d6435fd5 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20201125115753 76789da1 ada%s
+D a-except.ads		20201125115753 a7106115 ada.exceptions%s
+D a-ioexce.ads		20201125115753 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20201125115753 119b8fb3 ada.streams%s
+D a-tags.ads		20201125115753 491b781d ada.tags%s
+D a-textio.ads		20201125115753 aef4d56d ada.text_io%s
+D a-unccon.ads		20201125115753 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20201125115753 5ab55268 interfaces%s
+D i-cstrea.ads		20201125115753 e53d8b8e interfaces.c_streams%s
+D main.adb		20210222180215 78b78ab8 main%b
+D system.ads		20201125115753 4635ec04 system%s
+D s-conca2.ads		20201125115753 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20201125115753 0ebbdb71 system.crtl%s
+D s-exctab.ads		20201125115753 54135002 system.exception_table%s
+D s-ficobl.ads		20201125115753 078245e4 system.file_control_block%s
+D s-imgint.ads		20201125115753 02dbe0c2 system.img_int%s
+D s-parame.ads		20201125115753 48ec542b system.parameters%s
+D s-secsta.ads		20201125115753 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20201125115753 a7318a92 system.soft_links%s
+D s-stache.ads		20201125115753 a37c21ec system.stack_checking%s
+D s-stalib.ads		20201125115753 09bd3940 system.standard_library%s
+D s-stoele.ads		20201125115753 2dc34a04 system.storage_elements%s
+D s-traent.ads		20201125115753 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20201125115753 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20201125115753 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 2 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 1r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|1w10 1r27
+264U14*New_Line 10|13s1
+508U14*Put_Line 10|6s1 8s1 11s1
+X 10 main.adb
+2U11*main 2b11 19l5 19t9
+3i1 a{integer} 5r7 6r29 7r5 10r5 15m1 15r6
+
